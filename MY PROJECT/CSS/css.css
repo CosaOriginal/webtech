@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Sony;
+    src: url'https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap'();
+}
+body {
+    margin: 0;
+
+}
+nav {
+    background-color: black;
+}
+nav h1  {
+    margin: 0;
+    font-family: Sony; 
+    color: white;
+    letter-spacing: 0.3em;
+    padding-left: 0.2em;
+    width: 12%;
+}
+nav p  {
+    color: white;
+    display: flex;
+}

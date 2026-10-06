@@ -6,96 +6,93 @@
   --color-muted: #a89f93;
   --color-accent: #e8b04b;
   --color-zebra: #221d19;
-  --font-body: Georgia, serif;
-  --font-heading: "Trebuchet MS", Verdana, sans-serif;
+  --font-body: Verdana, sans-serif;
+  --font-heading: Georgia, serif;
 }
 
 body {
-  background-color: var(--color-paper);
-  color: var(--color-ink);
+  background-color: #fbf7f0;
+  color: #2b2b2b;
   font-family: var(--font-body);
-  font-size: 1.125rem;
-  line-height: 1.7;
-  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
 }
 
 h1, h2, h3 {
   font-family: var(--font-heading);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: normal;
-  color: var(--color-accent);
+  color: #e8b04b ;
+  
 }
 
 h2 {
-  font-size: 1.25rem;
-  color: var(--color-accent);
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 h3 {
-  font-size: 1rem;
-  color: var(--color-muted);
+  font-size: 1.5rem;
+  color: #6b6b6b;
 }
 
 .slogan {
-  color: var(--color-muted);
+  color: #6b6b6b;
   font-style: italic;
 }
 
 nav a {
-  color: var(--color-ink);
+  font-weight: bold;
+  color: #b5451b;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-family: var(--font-heading);
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 nav a:hover,
 nav a:focus {
-  color: var(--color-accent);
+  color:#b5451b;
 }
 
-ul, ol {
-  list-style: none;
-}
+
 
 .intro {
   font-size: 1.5rem;
-  color: var(--color-accent);
 }
 
+
 .kaart li:nth-child(odd) {
-  background-color: var(--color-zebra);
+  background-color: #f1e9dc;
 }
 
 .prijs {
-  color: var(--color-accent);
+  color: #b5451b;
+  font-style: italic;
 }
 
 main a {
-  color: var(--color-accent);
+  color: #b5451b;
 }
 
 main a:hover,
 main a:focus {
-  color: var(--color-paper);
-  background-color: var(--color-accent);
+  color:  #b5451b ;
+  background-color:  #b5451b;
 }
 
 strong {
-  color: var(--color-accent);
+  color:  #b5451b;
 }
 
 footer {
-  color: var(--color-muted);
-  font-size: 0.875rem;
+  color:#6b6b6b;
+  font-size: 0.75rem;
+  text-align: center;
 }
 
 footer a {
-  color: var(--color-muted);
+  color:#6b6b6b;
 }
