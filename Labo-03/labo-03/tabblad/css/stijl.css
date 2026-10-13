@@ -2,7 +2,35 @@
 
 /* === tokens === */
 :root {
+    background-color: #ff816f;
 
 }
 
 /* === your rules === */
+
+h1, h2 {
+    border: 0.25rem solid;
+}
+
+h1 {
+    width: 15rem;
+    padding: 1rem;
+    background-color:#ffd500 ;
+    font-size: 1rem;
+    border-bottom: 0rem;
+    box-shadow: -.25rem 0.40rem 0 black;
+    padding-left: 1.5rem ;
+}
+
+h2 {
+    width: 35rem;
+    padding: 2rem;
+    background-color: white;
+    font-size: 3rem;
+    box-shadow: -.25rem 0.40rem 0 black, 0.25rem 0.40rem 0 black;
+}
+
+body {
+   padding: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+}

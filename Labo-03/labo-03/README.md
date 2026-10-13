@@ -1,6 +1,6 @@
 # Labo 3 - reflecties
 
-Naam: (jouw naam)
+Naam: (Thibau Dons)
 
 ## 1. Kleurenstalen
 
@@ -10,6 +10,7 @@ Naam: (jouw naam)
 ## 2. Slogan
 
 - Welke property centreerde de tekst, en welke de kolom?
+
 - Waarom werkte de padding op de knop pas na `display: inline-block`?
 
 ## 3. Tabblad
