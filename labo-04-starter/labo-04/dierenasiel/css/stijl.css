@@ -1,0 +1,145 @@
+/* stijl.css - labo 4, navigatie (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --color-balk: #1f3a2e;
+    --color-tekst: #f3efe6;
+    --color-accent: #e6b53c;
+}
+
+/* === your rules === */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f4ec;
+    min-height: 100vh;
+}  
+
+main {
+    display: grid;
+    margin-top: 2rem;
+}
+
+header {
+    display: flex;
+    background-color: var(--color-balk);
+    justify-content: space-between;
+}
+
+header > a {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: var(--color-accent);
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+ nav ul>li:first-child>a{
+    padding: 0.7rem 1rem;
+    border-radius: .25rem;
+    background-color: #e6b53c;
+    color: black
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--color-tekst);
+}
+
+
+.kaarten {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+    max-width: 60rem;
+    padding: 2rem;
+     margin: 0 auto;
+    justify-items: center;
+}
+
+.kaart.uitgelicht {
+    grid-column: 1 / span 2;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem}
+
+   .kaarten li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border-radius: 0.4rem;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 0.25rem 0.5rem black;
+    height: 30vh;
+    }
+
+.kaarten li p {
+    word-spacing: 0.2rem;
+    line-height: 1.4rem;
+}
+
+
+.kaarten li .beschrijving {
+    flex: 1; 
+    
+    margin-bottom: 1.5rem; 
+}
+
+.knop {
+    background-color: #1f3a2e;
+    color: var(--color-tekst);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.soort {
+    margin-bottom: .5rem;
+}
+
+footer{
+    background-color: var(--color-balk);
+    color: #f3efe6;
+    padding: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+
+h1 { 
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-left: 1.6rem;
+}
+
+.intro {
+  color: var(--color-muted);
+  margin-bottom: var(--space);
+  margin-left: 2rem;
+}
